@@ -74,7 +74,7 @@ button[type="submit"]{
    .dashboard_features{
       display: none;
  }
- .create_note-btn .dot_features{
+ .create_note-btn .dot_features-0{
     margin-left: 1rem;
     margin-top: -7.5rem;
 }
