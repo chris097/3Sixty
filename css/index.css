@@ -1,0 +1,177 @@
+/******* @Header **********/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.user-loging{
+    display: flex;
+    margin: 1rem 0;
+}
+.user-loging .log-in a,
+.user-loging .sign-up a{
+   color: #fff;
+}
+.user-loging .log-in a:hover,
+.user-loging .sign-up a:hover{
+   color: #333;
+}
+.user-loging .log-in,
+.user-loging .sign-up{
+    background-color: rgba(0, 0, 255, 0.705);
+    padding: .6rem 1rem;
+}
+.user-loging .sign-up{
+    background-color: rgba(0, 0, 255, 0.753);
+    padding: .6rem 1rem;
+}
+.user-loging .log-in{
+    border-bottom-left-radius: 10rem; 
+    border-top-left-radius: 10rem;
+}
+.user-loging .sign-up{
+    border-bottom-right-radius: 10rem; 
+    border-top-right-radius: 10rem;
+}
+
+.text-button{
+    display: flex;
+    margin-bottom: .3rem;
+}
+.text-button .log-in,
+.text-button .sign-up{
+   color: #fff;
+}
+.text-button .log-in:hover,
+.text-button .sign-up:hover{
+   color: #333;
+}
+.text-button .log-in,
+.text-button .sign-up{
+    background-color: rgba(0, 0, 255, 0.705);
+    padding: .3rem 1rem;
+}
+.text-button .sign-up{
+    background-color: rgba(0, 0, 255, 0.753);
+    padding: .4rem .6rem;
+}
+.text-button .log-in{
+    border-bottom-left-radius: 10rem; 
+    border-top-left-radius: 10rem;
+}
+.text-button .sign-up{
+    border-bottom-right-radius: 10rem; 
+    border-top-right-radius: 10rem;
+}
+/********* Logo ***********/
+.logo{
+    font-size: 1.8rem;
+}
+
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding-top: 1rem;
+ }
+ .banner-content .slogan{
+     width: 500px;
+     font-size: 40px;
+     justify-content: flex-start;
+ }
+ .banner-content .card{
+     position: relative;
+ }
+ .banner-content .card-1{
+     width: 300px;
+     height: 250px;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+     border-radius: .2rem;
+     position: absolute;
+     top: 3rem;
+     margin-left: 2rem;
+ }
+ .links-content{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 2rem;
+ }
+ .cards{
+     display: flex;
+ }
+ .cards .card-2,
+ .cards .card-3{
+     width: 300px;
+     height: 250.5px;
+     box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+     border-radius: .2rem;
+ }
+ .cards .card-2{
+     margin-right: 4rem;
+ }
+ /********* Form ********/
+ .clear-fix{
+     width: 100%;
+     height: 100%;
+     background-color: #444;
+     position: absolute;
+     top: 0;
+     left: 0;
+     opacity: .6;
+     transition: all 4s;
+     display: none;
+ }
+ .user-sign-up{
+     width: 350px;
+     background-color: #fff;
+     z-index: 999;
+     opacity: 2;
+     position: absolute;
+     padding: 0 1rem;
+     top: 2rem;
+     display: none;
+     transform: translate3d(-50%, -50%);
+     transition: all .5s;
+ }
+ .user-log-in{
+     width: 350px;
+     background-color: #fff;
+     z-index: 999;
+     opacity: 2;
+     position: absolute;
+     padding: 0 1rem;
+     top: 2rem;
+     display: none;
+     transform: translate3d(-50%, -50%) scale(3);
+     transition: all .3s .4s;
+ }
+ .user-sign-up-content button[type="reset"],
+ .user-log-in-content button[type="reset"]{
+     float: right;
+     padding: .5rem;
+     margin: .5rem 0;
+     background: none;
+     border: none;
+     outline: none;
+     font-size: 16px;
+ }
+ .user-sign-up-content button[type="reset"]:hover,
+ .user-log-in-content button[type="reset"]:hover{
+     background: #ccc;
+     color: #fff;
+     border-radius: 10rem;
+ }
+ .option-sign-up{
+     display: flex;
+     border: 2px solid #2762f7;
+     text-align: center;
+     align-self: center;
+     align-content: center;
+     align-content: center;
+     margin: 1rem 0;
+     padding: .5rem 3rem;
+     width: 100%;
+     border-radius: .5rem;
+ }
+
+ 
+ 
