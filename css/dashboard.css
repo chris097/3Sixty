@@ -1,13 +1,13 @@
 .dashboard-menu_open,
 .dashboard-menu_close{
-    width: 30px;
-    height: 25px;
-    margin-top: 1.2rem;
+    margin-top: 1rem;
     transition: all .5s;
     position: absolute;
     top: 0;
     right: 1rem;
     display: none;
+    color: #ddd;
+    transform: scale();
 }
 .icon-size{
     width: 30px;

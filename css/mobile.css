@@ -74,6 +74,11 @@ button[type="submit"]{
    .dashboard_features{
       display: none;
  }
+ .on-hold{
+     padding: 3px 0;
+     border: .5px solid #eee;
+     margin-bottom: .5rem;
+ }
  .create_note-btn .dot_features-0{
     margin-left: 1rem;
     margin-top: -7.5rem;
