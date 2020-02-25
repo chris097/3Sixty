@@ -21,6 +21,8 @@
             block : 'block',
             edit: '#edit',
             editNext: '#edit-0',
+            spinner : '.spinner',
+            connect : '.connect',
             editNote : '.edit-menu-container',
             dotModal : '.note_features-dot',
             exDotModal : '.note_features-dot-0',
@@ -54,6 +56,15 @@
         }, 200);
         dashboardCtrl(dashBtn.clearFix, dashBtn.block);
       }
+      let delayDashboard = () => {
+        dashboardCtrl(dashBtn.clearFix, dashBtn.block);
+        setTimeout(() => {
+          dashboardCtrl(dashBtn.clearFix, dashBtn.none);
+          dashboardCtrl(dashBtn.spinner, dashBtn.none);
+          dashboardCtrl(dashBtn.connect, dashBtn.none);
+        }, 3000);
+      }
+        delayDashboard()
       //
       let displayDashFeatures = () =>{
           dashboardCtrl(dashBtn.components, dashBtn.block);

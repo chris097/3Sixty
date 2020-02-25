@@ -197,21 +197,3 @@ input{
     }
 }
 
- .dashboard{
-     transform: translateY(50px);
-     animation: animate 2s forwards ease-in;
- }
- @keyframes animate{
-     to{
-         transform: translateY(0);
-     }
- }
- .dashboard{
-     transform: translateY(-50px);
-     animation: animate 2s forwards ease-in;
- }
- @keyframes animate{
-     to{
-         transform: translateY(0);
-     }
- }

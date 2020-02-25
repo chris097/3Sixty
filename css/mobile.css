@@ -34,7 +34,7 @@ button[type="submit"]{
     .banner-content{
         width: 100%;
         height: 400px;
-        background: url('../img/gym-1.jpeg') no-repeat center center/cover;
+        background: url('./img/gym-1.jpeg') no-repeat center center/cover;
         padding: 0;
         color: #f1f1f1;
         line-height: 1.1;
@@ -88,4 +88,10 @@ button[type="submit"]{
   .fn-sz-3{
     font-size: 9px;
  }
+ .spinner{
+    left: 37%;
+   }
+   .connect{
+    left: 35%;
+   }
 }

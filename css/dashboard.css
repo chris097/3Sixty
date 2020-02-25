@@ -452,3 +452,16 @@ i{
     color: #fff;
     background-color: #d72323;
 }
+.spinner{
+    color: #fff;
+    position: absolute;
+    top: 15rem;
+    left: 45%;
+   }
+   .connect{
+    color: #fff;
+    position: absolute;
+    top: 18rem;
+    left: 45%;
+    font-size: 23px;
+   }
